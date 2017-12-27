@@ -18,6 +18,7 @@
 		364E4F9B1F4288BC00C8F7C0 /* TestOnlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364E4F9A1F4288BC00C8F7C0 /* TestOnlyViewController.m */; };
 		367D07BC1FF255000020D3CA /* YMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 367D07BB1FF255000020D3CA /* YMPageViewController.m */; };
 		367D07BE1FF38A9D0020D3CA /* 2017-12-27 15_56_14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 367D07BD1FF38A9D0020D3CA /* 2017-12-27 15_56_14.gif */; };
+		367D07C01FF397890020D3CA /* showPIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 367D07BF1FF397890020D3CA /* showPIC.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		367D07BA1FF255000020D3CA /* YMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPageViewController.h; sourceTree = "<group>"; };
 		367D07BB1FF255000020D3CA /* YMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPageViewController.m; sourceTree = "<group>"; };
 		367D07BD1FF38A9D0020D3CA /* 2017-12-27 15_56_14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-12-27 15_56_14.gif"; sourceTree = "<group>"; };
+		367D07BF1FF397890020D3CA /* showPIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = showPIC.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				367D07BD1FF38A9D0020D3CA /* 2017-12-27 15_56_14.gif */,
+				367D07BF1FF397890020D3CA /* showPIC.jpg */,
 				364563C41F3C3B2600C00949 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367D07C01FF397890020D3CA /* showPIC.jpg in Resources */,
 				364563D01F3C3B2600C00949 /* Assets.xcassets in Resources */,
 				367D07BE1FF38A9D0020D3CA /* 2017-12-27 15_56_14.gif in Resources */,
 			);

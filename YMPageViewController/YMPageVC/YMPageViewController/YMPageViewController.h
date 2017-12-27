@@ -40,7 +40,7 @@
                   *isNeedBounces                头部是否需要弹簧效果
  */
 - (void)initWithYMPageViewController:(void(^)(UIView  **headerView,
-                                              NSArray **childViewControllers,
+                                              NSArray <UIViewController *>**childViewControllers,
                                               UIColor **titleNormalBackgroundColor ,
                                               UIColor **titleSelectBackgroundColor ,
                                               BOOL    *isNeedBounces))initBlock;

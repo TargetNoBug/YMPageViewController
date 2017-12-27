@@ -47,15 +47,15 @@
     four.title = @"view";
     [childViewControllersArray addObject:four];
     
-    //一次性初始化
     [self initWithYMPageViewController:^(UIView *__autoreleasing *headerView,
-                                         NSArray *__autoreleasing *childViewControllers,
+                                         NSArray<UIViewController *> *__autoreleasing *childViewControllers,
                                          UIColor *__autoreleasing *titleNormalBackgroundColor,
                                          UIColor *__autoreleasing *titleSelectBackgroundColor,
                                          BOOL *isNeedBounces) {
         *headerView = tempHeaderView;
         *childViewControllers = childViewControllersArray;
     }];
+    
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
