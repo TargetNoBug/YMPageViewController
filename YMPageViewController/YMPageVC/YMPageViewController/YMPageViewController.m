@@ -165,7 +165,7 @@
         if (tempHeader) {
             self.YM_HeaderView = tempHeader;
             CGFloat height = tempHeader.frame.size.height;
-            _Header_H = height;
+            _Header_H = height + Title_H;
         }else {
             _Header_H = Title_H;
         }
@@ -492,7 +492,7 @@
                 [scrollView setContentOffset:offset animated:NO];
             }
         }
-        
+
     }
 }
 
@@ -593,4 +593,5 @@
     
     return _childViewAry;
 }
+
 @end
