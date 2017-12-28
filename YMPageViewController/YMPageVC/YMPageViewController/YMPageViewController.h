@@ -45,4 +45,14 @@
                                               UIColor **titleSelectBackgroundColor ,
                                               BOOL    *isNeedBounces))initBlock;
 
+/**
+ 将外部的UITableview/ScrollView传进来
+ (某些极端情况下,你可能需要这样做,当你继承此控制器的子类中的ScrollView必须通过网络数据的类型而创建时,
+ YMPageViewController此时无法通过KVO监听到它们,因为他们还没有创建.
+ 当然,绝大部分情况用不到这个方法.)
+ 
+ @param scrollView <#scrollView description#>
+ */
+- (void)UITableViewScroll:(UIScrollView *)scrollView;
+
 @end
