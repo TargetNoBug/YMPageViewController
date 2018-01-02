@@ -158,6 +158,7 @@
 #pragma mark - 初始化设置
 
 - (void)initWithYMPageViewController:(void (^)(UIView *__autoreleasing *, NSArray<UIViewController *> *__autoreleasing *, UIColor *__autoreleasing *, UIColor *__autoreleasing *, BOOL *))initBlock{
+    
     UIView  *tempHeader;                         //头部视图
     UIColor *tempTitleNorBackgroundColor;       //子控制器数组
     UIColor *tempTitleSelectBackgroundColor;    //标题正常颜色
