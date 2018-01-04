@@ -8,7 +8,7 @@
 
 > Makesure your controller inherit with YMPageViewController    
 ```
-//一句代码初始化(init whit just a little code)
+//一句代码初始化(init with just a little code)
 [self initWithYMPageViewController:^(UIView *__autoreleasing *headerView,
                                          NSArray<UIViewController *> *__autoreleasing *childViewControllers,
                                          UIColor *__autoreleasing *titleNormalBackgroundColor,
